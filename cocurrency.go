@@ -19,7 +19,7 @@ func main() {
 	fmt.Print(resPropinsi)
 }
 
-func getData(url string) []byte {
+func getData(url string) string {
 	response, err := http.Get(url)
 
 	if err != nil {
